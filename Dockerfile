@@ -1,5 +1,7 @@
 FROM debian:jessie-slim as builder
 
+LABEL image "ARM32"
+LABEL maintainer "itzg"
 ENV ACVERSION=1.2.0.2
 ENV DEBIAN_FRONTEND noninteractive
 
